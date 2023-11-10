@@ -1,0 +1,150 @@
+navbar {
+position: fixed;
+top: 0;
+left: 0;
+background: linear-gradient(50deg, #126259 0%, #126259 20%, #d15812 40%, #efcb64 70%, white 95%);
+width: 100%;
+font-family: 'Source Sans Pro', Arial, sans-setif;
+font-weight: bold;
+display: block;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+  text-transform: uppercase;
+  flex-wrap: wrap;
+  color: #000000c2;
+}
+
+li {
+padding-right: 40px;
+padding-left: 40px;
+padding-top: 10px;
+padding-bottom: 10px;
+flex-wrap: wrap;
+height: 100%;
+justify-content: flex-end;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #126259;
+}
+
+
+body {
+  margin: 0;
+  background: #47736e;
+  font-family: 'Source Sans Pro', Arial, sans-setif;
+  text-align: center;
+}
+
+#welcome-section {
+height: 100vh;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 60px;
+}
+
+#projects {
+  background: #e4b053;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 30px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+@media screen and (max-width: 768px, max-height: 200px) {
+  #welcome-section {
+    margin-top: 100px;
+  }
+}
+
+h1 {
+  font-size: 46px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
+span {
+  color: #fcf6e6;
+  font-size: 30px;
+}
+
+#grid h3 {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+#links h3 {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border: 2px solid #47736e;
+  border-radius: 5px;
+}
+
+
+
+
+#links {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  
+}
+
+.links {
+font-size: 50px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 50px;
+}
+
+@media (max-width: 768px)  {
+  #grid {
+  display: grid;
+grid-template-columns: auto;
+  gap: 30px;
+}
+
+p {
+  font-size: 25px;
+}
+
+.flex {
+justify-content: space-evenly;
+gap: 0;
+}
+ }
